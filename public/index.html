@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Basquete Ipaporanga</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Clube de Basquete Ipaporanga</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#elenco">Elenco</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre o Clube</h2>
+    <p>O Clube de Basquete Ipaporanga representa a cidade no cenário regional com talento e paixão pelo esporte.</p>
+  </section>
+
+  <section id="elenco">
+    <h2>Elenco</h2>
+    <ul id="lista-jogadores"></ul>
+  </section>
+
+  <section id="contato">
+    <h2>Fale Conosco</h2>
+    <form id="contato-form">
+      <input type="text" name="nome" placeholder="Seu nome" required />
+      <input type="email" name="email" placeholder="Seu e-mail" required />
+      <textarea name="mensagem" placeholder="Mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="resposta"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Clube de Basquete Ipaporanga</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
