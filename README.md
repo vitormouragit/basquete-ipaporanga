@@ -35,11 +35,12 @@ basquete-ipaporanga/
 - Node.js e npm instalados: https://nodejs.org/
 
 ### Passos
+0. Clone este repositório e abra o index.html no navegador.
 
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/basquete-ipaporanga.git
+git clone https://github.com/vitormouragit/basquete-ipaporanga.git
 cd basquete-ipaporanga
 ```
 
